@@ -1,0 +1,13 @@
+.button-section {
+  display: flex;
+  margin-top: 20px;
+  
+}
+
+.btn {
+  margin-bottom: 10px; 
+}
+
+.centered-h2 {
+  text-align: center;
+}
