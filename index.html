@@ -17,17 +17,26 @@
       <div class="col-md-12 centered-h2">
         <h2>Gestión de Equipo de Futbol</h2>
       </div>
+    <hr>
     </div>
     
     <div class="row button-section">
-      <div class="col-md-12">
+      <div class="col-md-12 buttons">
         <button onclick="addPlayer()" type="button" class="btn btn-primary">Agregar jugador</button>
-        <button onclick="listPlayers()" type="button" class="btn btn-primary">Listar jugadores</button>
-        <button onclick="asignPosition()" type="button" class="btn btn-primary">Asignar posición</button>
-        <button onclick="changePlayer()" type="button" class="btn btn-primary">Cambiar jugador</button>
       </div>
     </div>
-  </div>
+          <table class="table table-hover">
+              <thead>
+                  <tr>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Edad</th>
+                      <th scope="col">Posición</th>
+                      <th scope="col">Es titular</th>
+                  </tr>
+              </thead>
+              <tbody id="players-table">
+              </tbody>
+          </table>
 
   <script src="team_management.js"></script>
 

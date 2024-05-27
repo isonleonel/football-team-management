@@ -1,7 +1,13 @@
 .button-section {
   display: flex;
   margin-top: 20px;
-  
+  justify-self: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .btn {
